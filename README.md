@@ -1,7 +1,7 @@
 # raspberrypi_DMX_lights
 # Setting up RaspberryPI to control DMX lights using QLC+
 
-The end result of this will enable you to use a RaspberryPI to control you lighting system. This setup uses QLC+, an open source DMX light controller which is great for programming and running light shows.  Then it will use RVNC to remotely control your raspberryPI (and thus your lightshow) from your iphone/ipad/computer.
+The end result of this will enable you to use a RaspberryPI to control you lighting system. This setup uses QLC+, an open source DMX light controller which is great for programming and running light shows.  Then it will use RVNC to remotely control your RaspberryPI (and thus your lightshow) from your iphone/ipad/computer.
 
 Setup overview
 1) [Install QLC+ on your RapsberryPI.](https://github.com/alan-roth/raspberrypi_DMX_lights/edit/main/README.md#install-instructions)  I had to compile it on the device and then it ran well. 
@@ -27,7 +27,7 @@ git clone git://github.com/mcallegari/qlcplus.git
 cd qlcplus
 git pull
 
-3) Compile it. This step will take quite a while. Run the following code to compile - if it gives you errors, its probably missing a depdendency that may need to be installed.
+3) Compile it. This step will take quite a while. Run the following code to compile - if it gives you errors, its probably missing a dependency that may need to be installed.
 qmake
 make
 
@@ -39,7 +39,7 @@ qlcplus
 If its not working at this stage, check out this [more indepth guide to building it on linux](https://github.com/mcallegari/qlcplus/wiki/Linux-build-(Qt5--&-qmake))
 
 # How to use QLC+
-Here are sevearal tutorials for QLC+  [https://www.qlcplus.org/discover/tutorials](https://www.qlcplus.org/discover/tutorials). Youtube also has some rather helpful tutorials too.
+Here are several tutorials for QLC+  [https://www.qlcplus.org/discover/tutorials](https://www.qlcplus.org/discover/tutorials). Youtube also has helpful tutorials too.
 
 # Where to get a USB to DMX cable?
-Amazon has a number of choices of [USB to DMX cables]. (https://www.amazon.com/s?k=usb+to+dmx+cable&crid=37N839E6VSAX5&sprefix=usb+to+dmx+cabl%2Caps%2C256&ref=nb_sb_noss_2)
+I found Amazon has a good selection of [USB to DMX cables]. (https://www.amazon.com/s?k=usb+to+dmx+cable&crid=37N839E6VSAX5&sprefix=usb+to+dmx+cabl%2Caps%2C256&ref=nb_sb_noss_2)
